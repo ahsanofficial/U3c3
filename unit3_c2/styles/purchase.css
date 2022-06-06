@@ -1,0 +1,22 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: cyan;
+    margin-bottom: 30px;
+}
+
+#purchased_vouchers{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+#purchased_vouchers>div{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid cyan;
+}
+#purchased_vouchers>div>img{
+    height: 400px;
+}
